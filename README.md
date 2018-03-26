@@ -1,6 +1,13 @@
 wifijammer
 ==========
 
+
+You can use the mac system python or install homebrew's python. I prefer the system version (for now), so I've changed the setup script to call python rather than python2. Try cloning the repo or following the 0x09's instructions from his original pull request:
+Now it can be easily installable by running:
+```
+pip install "git+https://github.com/resistor4u/wifijammer#egg=wifijammer"
+```
+
 Continuously jam all wifi clients and access points within range. The effectiveness of this script is constrained by your wireless card. Alfa cards seem to effectively jam within about a block radius with heavy access point saturation. Granularity is given in the options for more effective targeting.
 
 
